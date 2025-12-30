@@ -1,4 +1,4 @@
-@import url('/fonts/SpaceMono/space-mono.css');
+@import url('./space-mono.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
