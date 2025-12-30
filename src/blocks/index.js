@@ -119,6 +119,9 @@ import DarkHeroD from './hero/dark/d';
 import DarkHeroE from './hero/dark/e';
 import DarkHeroF from './hero/dark/f';
 
+import LightLandingpageA from './landingpage/light/a';
+import DarkLandingpageA from './landingpage/dark/a';
+
 import LightPricingA from './pricing/light/a';
 import LightPricingB from './pricing/light/b';
 
@@ -227,6 +230,9 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       HeroD: darkMode ? <DarkHeroD theme={theme} /> : <LightHeroD theme={theme} />,
       HeroE: darkMode ? <DarkHeroE theme={theme} /> : <LightHeroE theme={theme} />,
       HeroF: darkMode ? <DarkHeroF theme={theme} /> : <LightHeroF theme={theme} />
+    },
+    Landingpage: {
+      LandingpageA: darkMode ? <DarkLandingpageA theme={theme} /> : <LightLandingpageA theme={theme} />
     },
     Pricing: {
       PricingA: darkMode ? <DarkPricingA theme={theme} /> : <LightPricingA theme={theme} />,
