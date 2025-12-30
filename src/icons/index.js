@@ -27,6 +27,8 @@ import CTAD from './cta/d';
 import EcommerceA from './ecommerce/a';
 import EcommerceB from './ecommerce/b';
 import EcommerceC from './ecommerce/c';
+import EcommerceD from './ecommerce/d';
+import EcommerceE from './ecommerce/e';
 
 import FeatureA from './feature/a';
 import FeatureB from './feature/b';
@@ -36,6 +38,7 @@ import FeatureE from './feature/e';
 import FeatureF from './feature/f';
 import FeatureG from './feature/g';
 import FeatureH from './feature/h';
+import FeatureI from './feature/i';
 
 import FooterA from './footer/a';
 import FooterB from './footer/b';
@@ -58,9 +61,9 @@ import HeroC from './hero/c';
 import HeroD from './hero/d';
 import HeroE from './hero/e';
 import HeroF from './hero/f';
+import HeroG from './hero/g';
 
 import LandingpageA from './landingpage/a';
-
 import PricingA from './pricing/a';
 import PricingB from './pricing/b';
 
@@ -113,7 +116,9 @@ export default function getIcons() {
     Ecommerce: {
       EcommerceA: <EcommerceA />,
       EcommerceB: <EcommerceB />,
-      EcommerceC: <EcommerceC />
+      EcommerceC: <EcommerceC />,
+      EcommerceD: <EcommerceD />,
+      EcommerceE: <EcommerceE />
     },
     Feature: {
       FeatureA: <FeatureA />,
@@ -123,7 +128,8 @@ export default function getIcons() {
       FeatureE: <FeatureE />,
       FeatureF: <FeatureF />,
       FeatureG: <FeatureG />,
-      FeatureH: <FeatureH />
+      FeatureH: <FeatureH />,
+      FeatureI: <FeatureI />
     },
     Footer: {
       FooterA: <FooterA />,
@@ -149,7 +155,8 @@ export default function getIcons() {
       HeroC: <HeroC />,
       HeroD: <HeroD />,
       HeroE: <HeroE />,
-      HeroF: <HeroF />
+      HeroF: <HeroF />,
+      HeroG: <HeroG />
     },
     Landingpage: {
       LandingpageA: <LandingpageA />

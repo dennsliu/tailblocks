@@ -51,10 +51,14 @@ import DarkCTAD from './cta/dark/d';
 import LightEcommerceA from './ecommerce/light/a';
 import LightEcommerceB from './ecommerce/light/b';
 import LightEcommerceC from './ecommerce/light/c';
+import LightEcommerceD from './ecommerce/light/d';
+import LightEcommerceE from './ecommerce/light/e';
 
 import DarkEcommerceA from './ecommerce/dark/a';
 import DarkEcommerceB from './ecommerce/dark/b';
 import DarkEcommerceC from './ecommerce/dark/c';
+import DarkEcommerceD from './ecommerce/dark/d';
+import DarkEcommerceE from './ecommerce/dark/e';
 
 
 import LightFeatureA from './feature/light/a';
@@ -65,6 +69,7 @@ import LightFeatureE from './feature/light/e';
 import LightFeatureF from './feature/light/f';
 import LightFeatureG from './feature/light/g';
 import LightFeatureH from './feature/light/h';
+import LightFeatureI from './feature/light/i';
 
 import DarkFeatureA from './feature/dark/a';
 import DarkFeatureB from './feature/dark/b';
@@ -74,6 +79,7 @@ import DarkFeatureE from './feature/dark/e';
 import DarkFeatureF from './feature/dark/f';
 import DarkFeatureG from './feature/dark/g';
 import DarkFeatureH from './feature/dark/h';
+import DarkFeatureI from './feature/dark/i';
 
 import LightFooterA from './footer/light/a';
 import LightFooterB from './footer/light/b';
@@ -111,6 +117,7 @@ import LightHeroC from './hero/light/c';
 import LightHeroD from './hero/light/d';
 import LightHeroE from './hero/light/e';
 import LightHeroF from './hero/light/f';
+import LightHeroG from './hero/light/g';
 
 import DarkHeroA from './hero/dark/a';
 import DarkHeroB from './hero/dark/b';
@@ -118,8 +125,10 @@ import DarkHeroC from './hero/dark/c';
 import DarkHeroD from './hero/dark/d';
 import DarkHeroE from './hero/dark/e';
 import DarkHeroF from './hero/dark/f';
+import DarkHeroG from './hero/dark/g';
 
 import LightLandingpageA from './landingpage/light/a';
+
 import DarkLandingpageA from './landingpage/dark/a';
 
 import LightPricingA from './pricing/light/a';
@@ -193,7 +202,9 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
     Ecommerce: {
       EcommerceA: darkMode ? <DarkEcommerceA theme={theme} /> : <LightEcommerceA theme={theme} />,
       EcommerceB: darkMode ? <DarkEcommerceB theme={theme} /> : <LightEcommerceB theme={theme} />,
-      EcommerceC: darkMode ? <DarkEcommerceC theme={theme} /> : <LightEcommerceC theme={theme} />
+      EcommerceC: darkMode ? <DarkEcommerceC theme={theme} /> : <LightEcommerceC theme={theme} />,
+      EcommerceD: darkMode ? <DarkEcommerceD theme={theme} /> : <LightEcommerceD theme={theme} />,
+      EcommerceE: darkMode ? <DarkEcommerceE theme={theme} /> : <LightEcommerceE theme={theme} />
     },
     Feature: {
       FeatureA: darkMode ? <DarkFeatureA theme={theme} /> : <LightFeatureA theme={theme} />,
@@ -203,7 +214,8 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       FeatureE: darkMode ? <DarkFeatureE theme={theme} /> : <LightFeatureE theme={theme} />,
       FeatureF: darkMode ? <DarkFeatureF theme={theme} /> : <LightFeatureF theme={theme} />,
       FeatureG: darkMode ? <DarkFeatureG theme={theme} /> : <LightFeatureG theme={theme} />,
-      FeatureH: darkMode ? <DarkFeatureH theme={theme} /> : <LightFeatureH theme={theme} />
+      FeatureH: darkMode ? <DarkFeatureH theme={theme} /> : <LightFeatureH theme={theme} />,
+      FeatureI: darkMode ? <DarkFeatureI theme={theme} /> : <LightFeatureI theme={theme} />
     },
     Footer: {
       FooterA: darkMode ? <DarkFooterA theme={theme} /> : <LightFooterA theme={theme} />,
@@ -229,7 +241,8 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       HeroC: darkMode ? <DarkHeroC theme={theme} /> : <LightHeroC theme={theme} />,
       HeroD: darkMode ? <DarkHeroD theme={theme} /> : <LightHeroD theme={theme} />,
       HeroE: darkMode ? <DarkHeroE theme={theme} /> : <LightHeroE theme={theme} />,
-      HeroF: darkMode ? <DarkHeroF theme={theme} /> : <LightHeroF theme={theme} />
+      HeroF: darkMode ? <DarkHeroF theme={theme} /> : <LightHeroF theme={theme} />,
+      HeroG: darkMode ? <DarkHeroG theme={theme} /> : <LightHeroG theme={theme} />
     },
     Landingpage: {
       LandingpageA: darkMode ? <DarkLandingpageA theme={theme} /> : <LightLandingpageA theme={theme} />
